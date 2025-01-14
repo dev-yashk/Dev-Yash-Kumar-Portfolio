@@ -1,0 +1,14 @@
+:root {
+  --color-bg: #000000;
+  --color-purple: #6b21a8;
+  --color-purple-light: #9333ea;
+  --color-text: #ffffff;
+  --color-text-secondary: #94a3b8;
+  
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  
+  --container-width: 1200px;
+  --border-radius: 20px;
+}

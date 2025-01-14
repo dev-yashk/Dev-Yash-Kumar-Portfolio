@@ -1,0 +1,64 @@
+/* Component Styles */
+.badge {
+  background: rgba(147, 51, 234, 0.2);
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  color: var(--color-text);
+  transition: background-color 0.3s ease;
+}
+
+.badge:hover {
+  background: rgba(147, 51, 234, 0.3);
+}
+
+.project-card {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card__image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-card__content {
+  padding: var(--spacing-sm);
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--color-purple);
+  color: var(--color-text);
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background: var(--color-purple-light);
+}
+
+.social-links {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-md);
+}
+
+.social-link {
+  color: var(--color-text);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: var(--color-purple-light);
+}
